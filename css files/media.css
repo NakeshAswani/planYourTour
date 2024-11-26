@@ -1,0 +1,871 @@
+@media only screen and (min-width: 200px) and (max-width: 575px)
+{
+    :root{
+        --width: 1140px;
+        --padd: 40px 15px;
+        --comcolor1: white;
+        --comcolor2: black;
+        --color1: #f76a00;
+        --color2: #fafafa;
+        --color3: #ffc107;
+        --color4: #6f655e;
+        --color5: #555555;
+        --color6: #3acee0;
+        --color7: #bb2d3b;
+        --color8: #f7f7f7;
+        --color9: #0d6efd;
+        --color10: #f5f2f0;
+        --blackrgba1: rgba(0, 0, 0, 0.1);
+        --blackrgba2: rgba(0, 0, 0, 0.2);
+        --blackrgba3: rgba(0, 0, 0, 0.3);
+        --blackrgba4: rgba(0, 0, 0, 0.4);
+        --blackrgba5: rgba(0, 0, 0, 0.5);
+        --blackrgba6: rgba(0, 0, 0, 0.6);
+        --blackrgba7: rgba(0, 0, 0, 0.7);
+        --blackrgba8: rgba(0, 0, 0, 0.8);
+        --blackrgba9: rgba(0, 0, 0, 0.9);
+    }
+    /* mobile Home page begin */
+    header figure{
+        flex-basis: 55%;
+    /* vendor prefix begin */
+        -webkit-flex-basis: 55%;
+        -moz-flex-basis: 55%;
+        -o-flex-basis: 55%;
+        -ms-flex-basis: 55%;
+    /* vendor prefix end */
+    }
+    header nav>ul,.headerSearch{
+        display: none;
+    }
+    header nav>i{
+        display: block !important;
+        background: var(--color1);
+        padding: 7px 10px;
+    }
+    .banner>i:first-child{
+        margin: 0px 0px 0px 2%;
+    }
+    .banner>i:last-child{
+        margin: 0px 2% 0px 0px;
+    }
+    .banner form{
+        width: 94%;
+        flex-direction: column;
+    /* vendor prefix begin */
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -o-flex-direction: column;
+        -ms-flex-direction: column;
+    /* vendor prefix end */
+        padding: 25px;
+        left: 50%;
+        transform: translate(-50%,0);
+    /* vendor prefix begin */
+        -webkit-transform: translate(-50%,0);
+        -moz-transform: translate(-50%,0);
+        -o-transform: translate(-50%,0);
+        -ms-transform: translate(-50%,0);
+    /* vendor prefix end */
+    }
+    .banner form select{
+        padding: 8px 10px;
+    }
+    .banner form button{
+        padding: 10px 0px;
+    }
+    .bannerInner{
+        margin-bottom: 60px;
+    }
+    .bannerInner h1{
+        font-size: 30px;
+        line-height: 50px;
+        margin-bottom: 10px;
+    }
+    .bannerInner h2{
+        font-size: 18px;
+        line-height: 35px;
+    }
+    .enjoyTripInner{
+        flex-direction: column;
+    /* vendor prefix begin */
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -o-flex-direction: column;
+        -ms-flex-direction: column;
+    /* vendor prefix end */
+        align-items: stretch;
+    /* vendor prefix begin */
+        -webkit-align-items: stretch;
+        -moz-align-items: stretch;
+        -o-align-items: stretch;
+        -ms-align-items: stretch;
+    /* vendor prefix end */
+        padding: 300px 15px 0px 15px;
+    }
+    .enjoyTripInner h1{
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .enjoyTripInner h1 br:first-child{
+        display: none;
+    }
+    .enjoyTripInner h1 span{
+        display: inline-block;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    .enjoyTripImgs a{
+        flex-basis: 28%;
+    /* vendor prefix begin */
+        -webkit-flex-basis: 28%;
+        -moz-flex-basis: 28%;
+        -o-flex-basis: 28%;
+        -ms-flex-basis: 28%;
+    /* vendor prefix end */
+    }
+    .TPImgs figure{
+        display: none;
+    }
+    .TPImgs figure:nth-child(2){
+        display: block;
+        flex-basis: 100%;
+    /* vendor prefix begin */
+        -webkit-flex-basis: 100%;
+        -moz-flex-basis: 100%;
+        -o-flex-basis: 100%;
+        -ms-flex-basis: 100%;
+    /* vendor prefix end */
+        height: 200px;
+    }
+    .TPImgs figure:nth-child(2) .TPImgOver h3{
+        margin: 30% 0px 0px 0px;
+    }
+    .TPImgs>i, .manaliTour>i, .popularPlacesInner>i, .bestTourInner>i{
+        display: block;
+    }
+    .manaliHeading{
+        flex-wrap: wrap;
+    /* vendor prefix begin */
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        -o-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+    /* vendor prefix end */
+        margin-bottom: 30px;
+    }
+    .manaliHeading h2{
+        font-size: 23px;
+    }
+    .manaliHeading article{
+        width: 100%;
+        margin-top: 10px;
+        text-align: right;
+    }
+    .packageCard{
+        flex-basis: 46%;
+    /* vendor prefix begin */
+        -webkit-flex-basis: 46%;
+        -moz-flex-basis: 46%;
+        -o-flex-basis: 46%;
+        -ms-flex-basis: 46%;
+    /* vendor prefix end */
+    }
+    .packageCard figure{
+        height: 150px;
+    }
+    .packageCard figcaption{
+        padding: 15px 10px 20px 10px;
+    }
+    .packageCard figcaption a article{
+        font-size: 13px;
+    }
+    .packageCard figcaption button{
+        width: 100%;
+    }
+    .popularPlacesInner h2 .bestTourInner h2{
+        font-size: 25px;
+    }
+    .popularPlacesInner a:nth-child(5), .popularPlacesInner a:nth-child(6),.bestTourInner a:nth-child(5), .bestTourInner a:nth-child(6){
+        display: none;
+    }
+    .popularPlacesInner a,.bestTourInner a{
+        flex-basis: 46%;
+    /* vendor prefix begin */
+        -webkit-flex-basis: 46%;
+        -moz-flex-basis: 46%;
+        -o-flex-basis: 46%;
+        -ms-flex-basis: 46%;
+    /* vendor prefix end */
+        height: 150px;
+    }
+    .whyChooseUsInner{
+        flex-direction: column;
+    /* vendor prefix begin */
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -o-flex-direction: column;
+        -ms-flex-direction: column;
+    /* vendor prefix end */
+        align-items: stretch;
+    /* vendor prefix begin */
+        -webkit-align-items: stretch;
+        -moz-align-items: stretch;
+        -o-align-items: stretch;
+        -ms-align-items: stretch;
+    /* vendor prefix end */
+        gap: 20px;
+    }
+    .whyChooseUsHeader h2{
+        font-size: 25px;
+    }
+    .happyCustomerInner{
+        flex-direction: column;
+    /* vendor prefix begin */
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -o-flex-direction: column;
+        -ms-flex-direction: column;
+    /* vendor prefix end */
+    }
+    .happyCustomerInner>i{
+        display: none;
+    }
+    .happyCustomerInner>h2{
+        font-size: 25px;
+        text-align: left;
+    }
+    .leadingInner article{
+        font-size: 14.5px;
+        line-height: 23px;
+        padding: 0px 35px;
+    }
+    .packagesInner h2{
+        font-size: 23px;
+    }
+    .packagesInner article{
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+    .packagesInner form{
+        flex-direction: column;
+    /* vendor prefix begin */
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -o-flex-direction: column;
+        -ms-flex-direction: column;
+    /* vendor prefix end */
+    }
+    .packagesInner button{
+        width: 50%;
+        padding: 15px 0px;
+    }
+    .footerInner{
+        flex-direction: column;
+    /* vendor prefix begin */
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -o-flex-direction: column;
+        -ms-flex-direction: column;
+    /* vendor prefix end */
+        gap: 20px;
+    }
+    .footerCol figure{
+        width: 50%;
+    }
+    /* mobile Home page end */
+    /* mobile About-Us page begin */
+    .aboutUsHeader article{
+        padding: 0px 0px;
+        line-height: 150px;
+    }
+    .aboutUsImg{
+        height: 380px;
+    }
+    .aboutUsImg img{
+        width: 100%;
+        height: 100%;
+    }
+    /* mobile About-Us page end */
+    /* mobile Blog page begin */
+    .blogMainInner{
+        flex-direction: column;
+    /* vendor prefix begin */
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -o-flex-direction: column;
+        -ms-flex-direction: column;
+    /* vendor prefix end */
+    }
+    .blogBlockHead h1{
+        font-size: 25px;
+    }
+    .blogBlock article button{
+        width: 50%;
+        margin: 0px 25%;
+    }
+    .blogMainInner aside{
+        margin: 100px 0px 30px 0px;
+    }
+    .blogMainInner aside ul{
+        justify-content: center;
+    /* vendor prefix begin */
+        -webkit-justify-content: center;
+        -moz-justify-content: center;
+        -o-justify-content: center;
+        -ms-justify-content: center;
+    /* vendor prefix end */
+    }
+    /* mobile Blog page end */
+    /* mobile Contact-Us page begin */
+    .contactUsHeader article{
+        font-size: 35px;
+        padding: 75px 0px;
+    }
+    .contactDetailsInner{
+        padding: 70px 15px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .contactForm{
+        flex-direction: column;
+    }
+    .contactForm button{
+        width: 50%;
+    }
+    /* mobile Contact-Us page end */
+    /* mobile Cancellation-Policy page begin */
+    .cancelPolicyInner{
+        padding: 100px 15px;
+    }
+    /* mobile Cancellation-Policy page end */
+    /* mobile India page begin */
+    .packageListingInner{
+        flex-direction: column;
+    /* vendor prefix begin */
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -o-flex-direction: column;
+        -ms-flex-direction: column;
+    /* vendor prefix end */
+        align-items: center;
+    /* vendor prefix begin */
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        -o-align-items: center;
+        -ms-align-items: center;
+    /* vendor prefix end */
+        gap: 50px;
+    }
+    .packageListingInner aside{
+        width: 100%;
+        margin: 0px;
+    }
+    .PLIContentHead h1{
+        font-size: 25px;
+    }
+    .PLIContentHead span{
+        flex-basis: 200px;
+    /* vendor prefix begin */
+        -webkit-flex-basis: 200px;
+        -moz-flex-basis: 200px;
+        -o-flex-basis: 200px;
+        -ms-flex-basis: 200px;
+    /* vendor prefix end */
+    }
+    .packageBlockTop{
+        flex-direction: column;
+    /* vendor prefix begin */
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -o-flex-direction: column;
+        -ms-flex-direction: column;
+    /* vendor prefix end */
+        gap: 15px;
+    }
+    .packageBlockTop figure{
+        margin-bottom: 0px;
+    }
+    .packageBlockTop figcaption{
+        padding: 10px 5px;
+    }
+    .packageBlockBottom{
+        padding: 10px;
+        flex-wrap: wrap;
+    /* vendor prefix begin */
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        -o-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+    /* vendor prefix end */
+        gap: 20px;
+    }
+    /* mobile India page end */
+    /* mobile 3-Night-4-Days-Manali-Tour-Package begin */
+    .tourPackageDetailInner{
+        flex-direction: column;
+    /* vendor prefix begin */
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -o-flex-direction: column;
+        -ms-flex-direction: column;
+    /* vendor prefix end */
+        gap: 50px;
+    }
+    .TPDHead h6{
+        flex-wrap: wrap;
+    /* vendor prefix begin */
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        -o-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+    /* vendor prefix end */
+    }
+    .TPDHead h6 figure{
+        padding: 10px;
+    }
+    /* mobile 3-Night-4-Days-Manali-Tour-Package end */
+    /* mobile Manali-Tour-Package-For-Family begin */
+    .packagePageBanner{
+        height: 55vh;
+        margin: 0px;
+    }
+    .packagePageBannerSlider figure{
+        width: 17%;
+        height: 60px;
+    }
+    .packageGallery h1{
+        font-size: 22px;
+    }
+    .packageGallery figure:nth-child(4), .packageGallery figure:last-child{
+        display: none;
+    }
+    .packageGallery figure{
+        flex-basis: 48%;
+        height: 150px;
+    }
+    .packageGalleryImgOver{
+        padding: 10px;
+        font-size: 17px;
+    }
+    /* mobile Manali-Tour-Package-For-Family end */
+}
+@media only screen and (min-width: 576px) and (max-width: 991px)
+{
+    :root{
+        --width: 1140px;
+        --padd: 40px;
+        --comcolor1: white;
+        --comcolor2: black;
+        --color1: #f76a00;
+        --color2: #fafafa;
+        --color3: #ffc107;
+        --color4: #6f655e;
+        --color5: #555555;
+        --color6: #3acee0;
+        --color7: #bb2d3b;
+        --color8: #f7f7f7;
+        --color9: #0d6efd;
+        --color10: #f5f2f0;
+        --blackrgba1: rgba(0, 0, 0, 0.1);
+        --blackrgba2: rgba(0, 0, 0, 0.2);
+        --blackrgba3: rgba(0, 0, 0, 0.3);
+        --blackrgba4: rgba(0, 0, 0, 0.4);
+        --blackrgba5: rgba(0, 0, 0, 0.5);
+        --blackrgba6: rgba(0, 0, 0, 0.6);
+        --blackrgba7: rgba(0, 0, 0, 0.7);
+        --blackrgba8: rgba(0, 0, 0, 0.8);
+        --blackrgba9: rgba(0, 0, 0, 0.9);
+    }
+    /* tablet Home page begin */
+    header figure{
+        flex-basis: 22%;
+    /* vendor prefix begin */
+        -webkit-flex-basis: 22%;
+        -moz-flex-basis: 22%;
+        -o-flex-basis: 22%;
+        -ms-flex-basis: 22%;
+    /* vendor prefix end */
+    }
+    header nav>ul,.headerSearch{
+        display: none;
+    }
+    header nav>i{
+        display: block !important;
+    }
+    .banner form{
+        width: 75%;
+        flex-direction: column;
+    /* vendor prefix begin */
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -o-flex-direction: column;
+        -ms-flex-direction: column;
+    /* vendor prefix end */
+        padding: 25px;
+        left: 50%;
+        transform: translate(-50%,0);
+    /* vendor prefix begin */
+        -webkit-transform: translate(-50%,0);
+        -moz-transform: translate(-50%,0);
+        -o-transform: translate(-50%,0);
+        -ms-transform: translate(-50%,0);
+    /* vendor prefix end */
+    }
+    .banner form select{
+        padding: 8px 10px;
+    }
+    .banner form button{
+        padding: 10px 0px;
+    }
+    .bannerInner{
+        margin-bottom: 90px;
+    }
+    .bannerInner h1{
+        font-size: 38px;
+        font-weight: 600;
+        line-height: 70px;
+        margin-bottom: 30px;
+    }
+    .bannerInner h1 br{
+        display: block;
+    }
+    .bannerInner h2{
+        font-size: 16px;
+        line-height: 35px;
+    }
+    .enjoyTripInner{
+        flex-direction: column;
+    /* vendor prefix begin */
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -o-flex-direction: column;
+        -ms-flex-direction: column;
+    /* vendor prefix end */
+        align-items: stretch;
+    /* vendor prefix begin */
+        -webkit-align-items: stretch;
+        -moz-align-items: stretch;
+        -o-align-items: stretch;
+        -ms-align-items: stretch;
+    /* vendor prefix end */
+        padding: 300px 37px 0px 37px;
+    }
+    .enjoyTripInner h1{
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .enjoyTripInner h1 br:first-child{
+        display: none;
+    }
+    .enjoyTripInner h1 span{
+        display: inline-block;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    .enjoyTripImgs a{
+        flex-basis: 28%;
+    /* vendor prefix begin */
+        -webkit-flex-basis: 28%;
+        -moz-flex-basis: 28%;
+        -o-flex-basis: 28%;
+        -ms-flex-basis: 28%;
+    /* vendor prefix end */
+    }
+    .TPImgs figure{
+        display: none;
+    }
+    .TPImgs figure:nth-child(2),.TPImgs figure:nth-child(3),.TPImgs figure:nth-child(4){
+        display: block;
+        flex-basis: 31.5%;
+    /* vendor prefix begin */
+        -webkit-flex-basis: 31.5%;
+        -moz-flex-basis: 31.5%;
+        -o-flex-basis: 31.5%;
+        -ms-flex-basis: 31.5%;
+    /* vendor prefix end */
+        height: 145px;
+    }
+    .TPImgs>i, .manaliTour>i, .popularPlacesInner>i{
+        display: block;
+    }
+    .manaliHeading{
+        flex-wrap: wrap;
+    /* vendor prefix begin */
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        -o-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+    /* vendor prefix end */
+        margin-bottom: 30px;
+    }
+    .manaliHeading h2{
+        font-size: 23px;
+    }
+    .manaliHeading article{
+        width: 100%;
+        margin-top: 10px;
+        text-align: right;
+    }
+    .packageCard{
+        display: none;
+    }
+    .manaliTour .packageCard:nth-child(3),.manaliTour .packageCard:nth-child(4){
+        display: block;
+        flex-basis: 46%;
+    /* vendor prefix begin */
+        -webkit-flex-basis: 46%;
+        -moz-flex-basis: 46%;
+        -o-flex-basis: 46%;
+        -ms-flex-basis: 46%;
+    /* vendor prefix end */
+    }
+    .packageCard figure{
+        height: 150px;
+    }
+    .packageCard figcaption{
+        padding: 15px 10px 20px 10px;
+    }
+    .packageCard figcaption a article{
+        font-size: 13px;
+    }
+    .packageCard figcaption button{
+        width: 100%;
+    }
+    .popularPlacesInner h2{
+        font-size: 25px;
+    }
+    .popularPlacesInner a:nth-child(5), .popularPlacesInner a:nth-child(6){
+        display: none;
+    }
+    .popularPlacesInner a{
+        flex-basis: 46%;
+    /* vendor prefix begin */
+        -webkit-flex-basis: 46%;
+        -moz-flex-basis: 46%;
+        -o-flex-basis: 46%;
+        -ms-flex-basis: 46%;
+    /* vendor prefix end */
+        height: 150px;
+    }
+    .whyChooseUsInner{
+        flex-direction: column;
+    /* vendor prefix begin */
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -o-flex-direction: column;
+        -ms-flex-direction: column;
+    /* vendor prefix end */
+        align-items: stretch;
+    /* vendor prefix begin */
+        -webkit-align-items: stretch;
+        -moz-align-items: stretch;
+        -o-align-items: stretch;
+        -ms-align-items: stretch;
+    /* vendor prefix end */
+        gap: 20px;
+    }
+    .whyChooseUsHeader h2{
+        font-size: 25px;
+    }
+    .whyBlock{
+        padding: 20px 0px 10px 40px;
+        gap: 80px;
+    }
+    .whyBlock figure{
+        width: 100px;
+    }
+    .happyCustomerInner{
+        flex-direction: column;
+    /* vendor prefix begin */
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -o-flex-direction: column;
+        -ms-flex-direction: column;
+    /* vendor prefix end */
+    }
+    .happyCustomerInner>i{
+        display: none;
+    }
+    .happyCustomerInner>h2{
+        font-size: 25px;
+        text-align: left;
+    }
+    .customerBlock article{
+        font-size: 17px;
+    }
+    .leadingInner article{
+        font-size: 15px;
+        line-height: 23px;
+        padding: 0px 65px;
+    }
+    .packagesInner h2{
+        font-size: 28;
+    }
+    .packagesInner form input{
+        width: 15%;
+        padding: 15px 10px;
+    }
+    .packagesInner form{
+        align-items: flex-start;
+    /* vendor prefix begin */
+        -webkit-align-items: flex-start;
+        -moz-align-items: flex-start;
+        -o-align-items: flex-start;
+        -ms-align-items: flex-start;
+    /* vendor prefix end */
+    }
+    .packagesInner button{
+        flex-basis: 20%;
+    /* vendor prefix begin */
+        -webkit-flex-basis: 20%;
+        -moz-flex-basis: 20%;
+        -o-flex-basis: 20%;
+        -ms-flex-basis: 20%;
+    /* vendor prefix end */
+        padding: 15px 0px;
+    }
+    .packagesInner button i{
+        display: block;
+    }
+    .footerInner{
+        flex-direction: column;
+    /* vendor prefix begin */
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -o-flex-direction: column;
+        -ms-flex-direction: column;
+    /* vendor prefix end */
+        gap: 20px;
+    }
+    .footerCol figure{
+        width: 24%;
+    }
+    /* tablet Home page end */
+    /* tablet About-Us page begin */
+    .aboutUsHeader article{
+        padding: 0px 0px;
+        line-height: 150px;
+    }
+    .aboutUsImg{
+        height: 400px;
+    }
+    .aboutUsImg img{
+        width: 55%;
+        margin: 0px 22.5%;
+        height: 100%;
+    }
+    /* tablet About-Us page end */
+    /* tablet Blog page begin */
+    .blogMainInner{
+        flex-direction: column;
+    /* vendor prefix begin */
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -o-flex-direction: column;
+        -ms-flex-direction: column;
+    /* vendor prefix end */
+    }
+    .blogBlockHead h1{
+        font-size: 33px;
+    }
+    .blogBlock article button{
+        width: 50%;
+        margin: 0px 25%;
+    }
+    .blogMainInner aside{
+        margin: 200px 0px 30px 0px;
+    }
+    .blogMainInner aside ul{
+        justify-content: center;
+    /* vendor prefix begin */
+        -webkit-justify-content: center;
+        -moz-justify-content: center;
+        -o-justify-content: center;
+        -ms-justify-content: center;
+    /* vendor prefix end */
+    }
+    /* tablet Blog page end */
+    /* tablet Contact-Us page begin */
+    .contactUsHeader article{
+        font-size: 30px;
+        padding: 70px 0px;
+    }
+    .contactDetailsInner{
+        padding: 70px 15px;
+        flex-direction: column;
+    /* vendor prefix begin */
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -o-flex-direction: column;
+        -ms-flex-direction: column;
+    /* vendor prefix end */
+        gap: 20px;
+    }
+    .contactForm{
+        flex-direction: column;
+    /* vendor prefix begin */
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -o-flex-direction: column;
+        -ms-flex-direction: column;
+    /* vendor prefix end */
+        margin: 30px 80px 0px 80px;
+    }
+    .contactForm button{
+        width: 50%;
+    }
+    /* tablet Contact-Us page end */
+    /* tablet Cancellation-Policy page begin */
+    .cancelPolicyInner{
+        padding: 100px 30px;
+    }
+    /* tablet Cancellation-Policy page end */
+    /* tablet India page begin */
+    .packageListingInner{
+        padding: 60px 30px;
+        flex-direction: column;
+    /* vendor prefix begin */
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -o-flex-direction: column;
+        -ms-flex-direction: column;
+    /* vendor prefix end */
+        align-items: center;
+    /* vendor prefix begin */
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        -o-align-items: center;
+        -ms-align-items: center;
+    /* vendor prefix end */
+        gap: 50px;
+    }
+    .packageListingInner aside{
+        width: 100%;
+        margin: 0px;
+    }
+    /* tablet India page end */
+    /* tablet 3-Night-4-Days-Manali-Tour-Package begin */
+    .tourPackageDetailInner{
+        flex-direction: column;
+    /* vendor prefix begin */
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -o-flex-direction: column;
+        -ms-flex-direction: column;
+    /* vendor prefix end */
+        gap: 50px;
+    }
+    .TPDHead h6{
+        flex-wrap: wrap;
+    /* vendor prefix begin */
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        -o-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+    /* vendor prefix end */
+    }
+    /* tablet 3-Night-4-Days-Manali-Tour-Package end */
+    /* tablet Manali-Tour-Package-For-Family begin */
+    /* tablet Manali-Tour-Package-For-Family end */
+}
